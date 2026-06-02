@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <style>
+        .outline {
+            background-color: transparent;
+            border-color: rgba(128, 128, 128, 0.744);
+            padding: 15px 20px;
+            border-radius: 35px;
+        }
+
+        .head1 {
+            font-size: 60px;
+        }
+
+        .para1 {
+            color: rgba(128, 128, 128, 0.958);
+            font-size: 20px;
+        }
+
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .s3 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .s3-main-div1 {
+            margin: 50px 70px;
+        }
+
+        .s4 {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            flex-direction: row;
+        }
+
+        .s5 {
+            display: flex;
+            justify-self: center;
+            text-align: center;
+            padding: 15px;
+            margin: 20px;
+        }
+
+        .s5>h1 {
+            font-size: 60px;
+        }
+
+        .images {
+            height: 80px;
+        }
+        .foot-icon{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold px-5" href="#"><img
+                    src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/Jevelin_logo.png"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Project</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="s1 m-5 row">
+        <div class="p-5 col-6">
+            <h1 class="fw-bold p-2 head1">Delivering high quality, effective, and inspiring <span
+                    style="color: red;">architecture</span></h1>
+            <p class="para1 py-5">Donec et augue pharetra, rutrum leo at</p>
+            <button class="outline p-3 px-5 fs-6">Latest Projects</button>
+        </div>
+        <div class="col-6">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/joel-filipe-G3uNjEPiWtU-unsplash.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/joel-filipe-G3uNjEPiWtU-unsplash3.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/joel-filipe-G3uNjEPiWtU-unsplash2.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s2 d-flex justify-content-center row">
+        <div class="m-3 text-center col-12">
+            <h1 class="fw-bold p-3>">Our main services</h1>
+            <p class="para1 p-3 px-5">Nullam mattis sed justo quis sollicitudin. Maecenas lobortis fermentum fringilla.
+                Vivamus in diam erat.</p>
+        </div>
+        <div class="col-12">
+            <div class="row d-flex justify-content-center">
+                <div class="card col-4 m-2 border-0" style="width: 18rem;">
+                    <i class="bi bi-pencil fs-3 p-3 px-4 text-danger"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Architecture</h5>
+                        <p class="card-text para1 fs-6">Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae
+                            undas sodales lectus, non ultrices nisi.</p>
+                        <a href="#" class="btn p-0 fw-bold">Learn more</a>
+                    </div>
+                </div>
+                <div class="card col-4 m-2 border-0" style="width: 18rem;">
+                    <i class="bi bi-house-door fs-3 p-3 px-4 text-danger"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Interior design</h5>
+                        <p class="card-text para1 fs-6">Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae
+                            undas sodales lectus, non ultrices nisi.</p>
+                        <a href="#" class="btn p-0 fw-bold">Learn more</a>
+                    </div>
+                </div>
+                <div class="card col-4 m-2 border-0" style="width: 18rem;">
+                    <i class="bi bi-layout-wtf fs-3 p-3 px-4 text-danger"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Exterior design</h5>
+                        <p class="card-text para1 fs-6">Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae
+                            undas sodales lectus, non ultrices nisi.</p>
+                        <a href="#" class="btn p-0 fw-bold">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s3">
+        <div class="s3-main-div1">
+            <p class="para1 p-3">68 High street, London, England</p>
+            <h3 class="p-2 fw-bold ">
+                23 floor office <br>
+                building in the heart <br>
+                of London city
+            </h3>
+            <button class="outline p-3 px-5 fs-6 m-3">View Projects</button>
+            <hr>
+            <h5 class="p-3">“Sed ultrices dignissim orci, <br> vel porta justo placerat quis. Vestibulum quis tempor
+                erat ”
+            </h5>
+            <div class="profile">
+                <img class="p-2"
+                    src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/Ellipse-43.png"
+                    alt="no profile">
+                <div class="m-2">
+                    <h5>Kate Wilkinson</h5>
+                    <p>Architect</p>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <img style="width: 500px; margin-right: 20px;"
+                src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/joel-filipe-Pq_b2XMH47c-unsplash.jpg"
+                alt="">
+        </div>
+    </section>
+    <section class="s4">
+        <div class="">
+            <img style="width: 500px; margin-right: 20px;"
+                src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/annie-spratt-p5x4IKEkWSo-unsplash.jpg"
+                alt="">
+        </div>
+        <div class="s3-main-div1">
+            <p class="para1 p-3">68 North area 23, Los Angeles, USA</p>
+            <h3 class="p-2 fw-bold ">
+                Award winning <br>
+                private luxury <br>
+                house
+            </h3>
+            <button class="outline p-3 px-5 fs-6 m-3">View Projects</button>
+            <hr>
+            <h5 class="p-3">“Sed ultrices dignissim orci, vel porta justo <br> placerat quis. Vestibulum quis tempor
+                erat ”
+            </h5>
+            <div class="profile">
+                <img class="p-2"
+                    src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/Ellipse-44.png"
+                    alt="no profile">
+                <div class="m-2">
+                    <h5>John Doe</h5>
+                    <p>Architect</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="row s5">
+        <h1 class="fw-bold">Our latest work</h1>
+        <p class="para1">Donec eleifend fermentum semper. <br>
+            Etiam enim sapien, feugiat id eros a, lacinia
+        </p>
+    </section>
+    <section class="d-flex justify-content-center">
+        <div class="card m-4" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/adult-beard-businessman-11389031.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">John Berry</h5>
+                <p class="card-text">CEO</p>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/achievement-adult-business-9374812.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Jan Bruk</h5>
+                <p class="card-text">Architect</p>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img class="card-img-top"
+                src="https://jevelin.shufflehound.com/architect/wp-content/uploads/sites/30/2019/03/adult-beautiful-beverage-1251090.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Miranda Berry</h5>
+                <p class="card-text">Architect</p>
+            </div>
+        </div>
+
+    </section>
+<footer class=" bg-dark m-5">
+<div class="row d-flex justify-content-center">
+    <div class="col-3">
+        <h1 class="text-light p-4">Jevelin</h1>
+    </div>
+    <div class="text-light m-3 col-3">
+        <p>Home</p>
+        <p>Projects</p>
+        <p>Contacts</p>
+    </div>
+    <div class="col-3 m-3">
+        <a class="bi bi-linkedin text-light p-2 foot-icon"></a>
+        <a class="bi bi-twitter text-light p-2 foot-icon"></a>
+
+    </div>
+</div>
+<hr style="color: grey;">
+<div>
+    <p style="color: grey; text-align: center;padding: 15px;">Copyright © JevelinTheme - Theme by Shufflehound</p>
+</div>
+</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
